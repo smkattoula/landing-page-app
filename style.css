@@ -57,6 +57,61 @@ li {
   font-weight: bold;
 }
 
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 10px;
+  background-color: rgb(55, 66, 77);
+}
+
+.card {
+  background-color: rgb(55, 66, 77);
+  margin: 50px;
+  color: white;
+}
+
+.card > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.card > .text {
+  padding: 0 20px 20px;
+}
+
+button {
+  cursor: pointer;
+  background: gray;
+  border: 0;
+  font-size: 1rem;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+
+button:hover {
+  background-color: #898cce;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: slateblue;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .main-nav {
     font-size: 0.7rem;
