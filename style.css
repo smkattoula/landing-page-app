@@ -51,7 +51,7 @@ li {
 .coverText {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   color: white;
   font-weight: bold;
@@ -108,7 +108,7 @@ button:hover {
 footer {
   text-align: center;
   padding: 15px;
-  background-color: slateblue;
+  background-color: #898cce;
   color: white;
 }
 
